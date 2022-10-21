@@ -11,7 +11,7 @@ terraform {
 
 provider "aws" {
   region  = var.region
-  profile = "721863226827_TerraformAccess"
+  /* profile = "721863226827_TerraformAccess" */
 }
 
 /* resource "kubernetes_namespace" "fid_namespace"  {
