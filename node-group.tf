@@ -70,7 +70,7 @@ resource "aws_iam_role_policy_attachment" "node_AmazonEC2ContainerRegistryReadOn
 
 # EKS Node Security Group
 resource "aws_security_group" "eks_nodes" {
-  name        = "${var.project}-node-sg"
+  name        = "test-node-sg"
   description = "Security group for all nodes in the cluster"
   vpc_id      = aws_vpc.this.id
 

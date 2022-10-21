@@ -1,6 +1,6 @@
 # EKS Cluster
 resource "aws_eks_cluster" "this" {
-  name     = "${var.project}-cluster"
+  name     = "test-cluster"
   role_arn = aws_iam_role.cluster.arn
 
   vpc_config {
@@ -53,7 +53,7 @@ resource "aws_iam_role_policy_attachment" "cluster_AmazonEKSClusterPolicy" {
 
 # EKS Cluster Security Group
 resource "aws_security_group" "eks_cluster" {
-  name        = "${var.project}-cluster-sg"
+  name        = "test-cluster-sg"
   description = "Cluster communication with worker nodes"
   vpc_id      = aws_vpc.this.id
 
