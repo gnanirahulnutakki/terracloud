@@ -61,7 +61,6 @@ variable "fid_license" {
   FID LICENSE.
   DESCRIPTION
   type        = string
-  #default     = "{{rlib}x9TJ257h2YzhyM3Ms8/Y1dDV3a+dytjQftHW2MXj18Cs2ZrWy8/H3NfR53jj4NnIj8fZ1c2a2cTf0NvExsrT156eqXugnZiVgpKYlcrSsXywl6uTlZORopGepHmfl5qXf5aVrpabt3+yqZ2TgpGUmZGhug==}"
 }
 
 
