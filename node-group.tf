@@ -30,7 +30,7 @@ resource "aws_eks_node_group" "this" {
 
 # EKS Node IAM Role
 resource "aws_iam_role" "node" {
-  name = "${var.project}-Worker-Role"
+  name = "test-Worker-Role"
 
   assume_role_policy = <<POLICY
 {
