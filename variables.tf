@@ -8,6 +8,11 @@ variable "aws_secret_key" {
   type        = string
 }
 
+variable "aws_session_token" {
+  description = "AWS session token"
+  type        = string
+}
+
 variable "region" {
   description = "The aws region. https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html"
   type        = string
